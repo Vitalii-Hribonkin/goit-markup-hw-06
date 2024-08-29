@@ -516,12 +516,7 @@ font-family: "Raleway",
 .a-icons-footer:focus {
     background-color: #31D0AA;
 }
-.third-div-conteiner-footer{  
-    
-    display: flex;
-    flex-wrap: wrap;
-        height: 80px;
-}
+
 .p-footer-subscribe{
 font-family: "Roboto",
         sans-serif;
@@ -798,7 +793,7 @@ border: none;
 /* #endregion modal-backdrop */
 
 /* #region media-tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
     .container{
         max-width: 768px;
         padding-left: 16px;
@@ -824,7 +819,7 @@ padding-right: 92px;
 
 /* our portfilio */
 .ul-list-our-potfolio{
-gap: 72px;
+gap: 72px 24px;
 
 }
 .li-list-portfolio{
@@ -853,11 +848,10 @@ margin-left: 0;
 /* #endregion media-tablet */
 
 /* #region media decstop */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) and (max-width: 99999px) {
     .container{
 max-width: 1158px; 
 padding: 0 15px;
- gap: 24px;
     }
 .section{
     padding-top: 120px;
@@ -919,46 +913,50 @@ width: calc((100% - 72px) / 4);
     gap: 40px 24px;
 }
 .li-list-portfolio{
-    width: calc((100%-48px) /3);
+    width: 360px;
 }
 
 
 
 /* footer */
-.footer{
+
+.footer {
     padding: 100px 0;
 }
-.div-container-logo-p {
-    margin-right: 120px;
+.container-footer{
+    gap: 0;
 }
-.logotype-footer-fiol{
+
+.logotype-footer-fiol {
     padding-left: 0;
 }
-.container-footer-social-media{
-    margin-left: 0;
-    margin-right: 80px;
+
+.container-footer-social-media {
+    margin-left: 120px;
 }
+
 .second-p-footer {
     margin-left: 0;
 }
-.third-div-conteiner-footer{
-position: relative;
-    width: 453px;
+
+.third-div-conteiner-footer {
+    margin-left: 80px;
 }
-.form-footer{
-gap: 24px;
+
+
+.label-footer{
+    max-width: 264px;
 }
-.input-footer{
-width: 264px;
+.input-footer {
+    width: 264px;
+    opacity: 1;
 }
-.p-footer-subscribe{
+
+.p-footer-subscribe {
     margin-left: 0;
 }
-.button-footer{
-position: absolute;
-    top: 50%;
-    left: 288px;
+
+.button-footer {
+    margin-left: 0;
 }
-
-
 }
